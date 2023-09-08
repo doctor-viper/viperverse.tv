@@ -40,33 +40,33 @@ body {
 }
 
 header {
-  padding: 20px 0;
   background: #7a3291 url('../img/purple_noise.png');
   border-bottom: 2px solid #333;
+  padding: 20px 0;
 
   &::before {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     content: " ";
     height: 85px;
-    position: absolute;
     left: -50%;
+    position: absolute;
     top: 0;
     width: 150%;
   }
 
   div {
-    width: 80%;
     margin: 0 auto;
     position: relative;
+    width: 80%;
 
     h1 {        
       a {
-        display: block;
-        height: 45px;
-        width: 262px;
         background-image: url('../img/viperverse_logo.png');
         background-size: contain;
+        display: block;
+        height: 45px;
         text-indent: -9999px;
+        width: 262px;
       }
     }
 
@@ -88,30 +88,29 @@ header {
           padding-left: 40px;
           a {
             color: #fff;
+            display: block;
             font-size: 25px;
             font-family: 'KnewaveRegular';
-            //font-weight: bolder;
-            display: block;
             height: 45px;
             line-height: 42px;
             text-decoration: none;
             text-transform: uppercase;
-            transition: all ease-in-out 400ms;
             text-shadow: #000 1px 1px 1px;
+            transition: all ease-in-out 400ms;
 
             &:hover {
               color: #ffae00;
             }
             
             &:after {
-              content: " /";
               color: #e75333;
-              display: inline-block;
-              padding-right: 40px;
+              content: " /";
+              display: block;
               float: left;
               font-size: 20px;
-              text-shadow: none;
+              padding-right: 40px;
               text-align: center;
+              text-shadow: none;              
               width: 10px;
             }
           }   
@@ -122,8 +121,8 @@ header {
 }
 
 main {
+  color: #fff;
   margin: 0 auto;
   padding: 20px 0;
-  width: 80%;    
-  color: #fff;
+  width: 80%;  
 }
