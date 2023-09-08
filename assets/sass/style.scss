@@ -1,11 +1,9 @@
 /*!
- * timrgeorge.com
+ * viperverse.tv
  * 
- * Author:    Tim George
- * Version:   1.1
+ * Author:    Doctor Viper
+ * Version:   1.0
  *
- * Tiled Background Image     :: http://subtlepatterns.com/
- * Google Fonts               :: https://www.google.com/fonts/specimen/Titillium+Web
  * Animated gifs found        :: http://giphy.com/
  * Initial Templates          :: https://github.com/murtaugh/HTML5-Reset
  *
@@ -37,105 +35,95 @@
 /* MAIN STYLES
 -------------------------------------------------------------------------------*/
 body {
-    background-color: #2b336f;
-    background-image: url('../img/blue_noise.png');
+  background-color: #2b336f;
+  background-image: url('../img/blue_noise.png');
 }
 
 header {
-    padding: 20px 0;
-    background: #7a3291 url('../img/purple_noise.png');
-    border-bottom: 2px solid #333;
-    
-    // box-shadow: 0 5px 10px black;
-    &::before {
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-        content: " ";
-        height: 85px;
-        position: absolute;
-        left: -50%;
-        top: 0;
-        width: 150%;
+  padding: 20px 0;
+  background: #7a3291 url('../img/purple_noise.png');
+  border-bottom: 2px solid #333;
+
+  &::before {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    content: " ";
+    height: 85px;
+    position: absolute;
+    left: -50%;
+    top: 0;
+    width: 150%;
+  }
+
+  div {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+
+    h1 {        
+      a {
+        display: block;
+        height: 45px;
+        width: 262px;
+        background-image: url('../img/viperverse_logo.png');
+        background-size: contain;
+        text-indent: -9999px;
       }
-
-    div {
-        width: 80%;
-        margin: 0 auto;
-        position: relative;
-    
-        h1 {
-            
-            a {
-                display: block;
-                height: 45px;
-                width: 262px;
-                background-image: url('../img/viperverse_logo.png');
-                background-size: contain;
-                text-indent: -9999px;
-            }
-        }
-
-        img.sun {
-            height: 45px;
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-
-        nav {
-            position: absolute;
-            right: 80px;
-            top: 0;
-
-            ul {
-                li {
-                    float: left;
-                    padding-left: 40px;
-                    a {
-                        color: #fff;
-                        font-size: 25px;
-                        font-family: 'KnewaveRegular';
-                        //font-weight: bolder;
-                        display: block;
-                        height: 45px;
-                        line-height: 42px;
-                        text-decoration: none;
-                        text-transform: uppercase;
-                        transition: all ease-in-out 400ms;
-                        text-shadow: #000 1px 1px 1px;
-
-                        &:hover {
-                            //text-decoration: underline;
-                            color: #ffae00;
-                        }
-                        
-                        &:after {
-                            content: " /";
-                            color: #e75333;
-                            display: inline-block;
-                            padding-right: 40px;
-                            float: left;
-                            font-size: 20px;
-                            text-shadow: none;
-                            text-align: center;
-                            width: 10px;
-                        }
-                    }
-                    
-                  
-                
-                }
-
-
-            }
-        }
-
     }
 
+    img.sun {
+      height: 45px;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    nav {
+      position: absolute;
+      right: 80px;
+      top: 0;
+
+      ul {
+        li {
+          float: left;
+          padding-left: 40px;
+          a {
+            color: #fff;
+            font-size: 25px;
+            font-family: 'KnewaveRegular';
+            //font-weight: bolder;
+            display: block;
+            height: 45px;
+            line-height: 42px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all ease-in-out 400ms;
+            text-shadow: #000 1px 1px 1px;
+
+            &:hover {
+              color: #ffae00;
+            }
+            
+            &:after {
+              content: " /";
+              color: #e75333;
+              display: inline-block;
+              padding-right: 40px;
+              float: left;
+              font-size: 20px;
+              text-shadow: none;
+              text-align: center;
+              width: 10px;
+            }
+          }   
+        }
+      }
+    }
+  }
 }
 
 main {
-    margin: 0 auto;
-    padding: 20px 0;
-    width: 80%;    
-    color: #fff;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;    
+  color: #fff;
 }
