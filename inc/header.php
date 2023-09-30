@@ -46,13 +46,17 @@
   <meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
   <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
-    <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <!-- CSS -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+
+  <script src="/assets/js/jquery.js" type="text/javascript"></script>
 
 </head>
 
@@ -62,19 +66,16 @@
 
   <header>
     <div>
-
+    
       <h1>
         <a href="/">VIPERVERSE</a>
-      </h1>
-
-      <img class="sun" src="/assets/img/sun.png" alt="SUN" />
+      </h1>      
 
       <nav>
         <ul>
-          <li><a href="">STREAM</a></li>
-          <li><a href="">MERCH</a></li>
-          <li><a href="">GOODIES</a></li>
-          <li><a href="">VIPER VIBES</a></li>
+          <li><a target="_blank" href="https://store.streamelements.com/dr_viper">MERCH</a></li>
+          <li><a href="/goodies">GOODIES</a></li>
+          <li><a target="_blank" href="https://soundcloud.com/doctor_viper/sets/stream-vibes-v2">VIPER VIBES</a></li>
           <li><a href="">CREW</a></li>
         </ul>
       </nav>

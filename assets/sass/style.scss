@@ -35,6 +35,8 @@
 /* MAIN STYLES
 -------------------------------------------------------------------------------*/
 body {
+  //background-color: #fafafa;
+  // background-color: #5962a8;
   background-color: #2b336f;
   background-image: url('../img/blue_noise.png');
 }
@@ -42,10 +44,11 @@ body {
 header {
   background: #7a3291 url('../img/purple_noise.png');
   border-bottom: 2px solid #333;
-  padding: 20px 0;
+  padding: 25px 0;
+  overflow: hidden;
 
   &::before {
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.25);
     content: " ";
     height: 85px;
     left: -50%;
@@ -57,16 +60,17 @@ header {
   div {
     margin: 0 auto;
     position: relative;
-    width: 80%;
+    //width: 80%;
+    width: 980px;
 
-    h1 {        
+    h1 {
       a {
         background-image: url('../img/viperverse_logo.png');
         background-size: contain;
         display: block;
-        height: 45px;
+        height: 35px;
         text-indent: -9999px;
-        width: 262px;
+        width: 205px;
       }
     }
 
@@ -74,22 +78,22 @@ header {
       height: 45px;
       position: absolute;
       top: 0;
-      right: 0;
+      left: 0;
     }
 
     nav {
       position: absolute;
-      right: 80px;
-      top: 0;
+      right: 0;
+      top: -5px;
 
       ul {
         li {
           float: left;
-          padding-left: 40px;
+          padding-left: 20px;
           a {
             color: #fff;
             display: block;
-            font-size: 25px;
+            font-size: 20px;
             font-family: 'KnewaveRegular';
             height: 45px;
             line-height: 42px;
@@ -108,12 +112,19 @@ header {
               display: block;
               float: left;
               font-size: 20px;
-              padding-right: 40px;
+              padding-right: 30px;
               text-align: center;
               text-shadow: none;              
               width: 10px;
             }
-          }   
+          } 
+
+          &:first-child {
+            a:after {
+              content: none;
+            }
+          }
+
         }
       }
     }
@@ -123,6 +134,122 @@ header {
 main {
   color: #fff;
   margin: 0 auto;
-  padding: 20px 0;
-  width: 80%;  
+  padding: 80px 0 0;
+  width: 80%;
+
+  .hero-image-and-title {
+    margin: 0 auto;
+    width: 980px;
+    overflow: hidden;
+
+    .doc-terminal {
+      float: left;
+      width: 55%;
+      height: 390px;
+      //background-color: #272727;
+      background-position-y: 0px;
+      background-image: repeating-linear-gradient(90deg,var(--grid-color,black) 0%,
+                        transparent calc(1px + var(--grid-blur,0px)), 
+                        transparent var(--grid-size),var(--grid-color,black) calc(var(--grid-size) + 1px + var(--grid-blur,0px))),
+                        repeating-linear-gradient(180deg,var(--grid-color,black) 0%,
+                        transparent calc(1px + var(--grid-blur,0px)), 
+                        transparent var(--grid-size),var(--grid-color,black) calc(var(--grid-size) + 1px + var(--grid-blur,0px)));
+      transform:perspective(50vh) rotateX(60deg) translateZ(10px);
+      // animation:moving-grid 0.5s infinite linear;
+      // z-index:-1;
+    }
+
+    .doc-title {
+      float: left;
+      width: 55%;
+      text-align: center;
+
+      h1,h2 { 
+        font-family: "Titillium Web";
+        text-align: center; 
+      }
+
+      h1 {
+        color: #ffae00;
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: -3px;
+        margin: 12px 0 0;
+        text-shadow: 0 -1px 0 #000;
+      }
+
+      h2 {
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: -1px;
+        line-height: 35px;
+        text-transform: uppercase;
+        text-shadow: 0 -1px 0 #000;
+
+        strong.viperverse {
+          color: #00fffc;
+        }
+
+        strong.doctor-viper {
+          color: #ff00f0;
+        }
+      }
+
+    }
+
+    .doc-img {
+      float: right;
+      width: 45%;
+      padding: 45px 0;
+
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        border-radius: 300px;
+        box-shadow: 0 0 30px rgba(231, 83, 51, 0.5);
+        transition: all ease-in-out 400ms;
+
+        &:hover {
+          box-shadow: 0 0 50px rgba(231, 83, 51, 0.75);
+        }
+      }
+
+    }
+
+  }
+
+
+}
+
+
+.grid-container {
+  position: relative;
+  width: 980px;
+  height: 300px;
+  //background: red;
+}
+
+.grid{
+  position:absolute;
+  top: 0;
+  left:0;
+  margin-left: -50%;
+  width: 200%;
+  height: 200%;
+  background-position-y: 0px;
+  background-image:
+        repeating-linear-gradient(90deg,var(--grid-color,black) 0%,transparent calc(1px + var(--grid-blur,0px)), transparent var(--grid-size),var(--grid-color,black) calc(var(--grid-size) + 1px + var(--grid-blur,0px))),repeating-linear-gradient(180deg,var(--grid-color,black) 0%,transparent calc(1px + var(--grid-blur,0px)), transparent var(--grid-size),var(--grid-color,black) calc(var(--grid-size) + 1px + var(--grid-blur,0px)));
+  transform:perspective(50vh) rotateX(60deg) translateZ(10px);
+  animation:moving-grid 0.5s infinite linear;
+  z-index:-1;
+}
+
+@keyframes moving-grid{
+  0%{
+    transform:perspective(50vh) rotateX(60deg) translateZ(10px) translateY(-var(--grid-size));
+  }
+  100%{
+    transform:perspective(50vh) rotateX(60deg) translateZ(10px) translateY(var(--grid-size));
+  }
 }
