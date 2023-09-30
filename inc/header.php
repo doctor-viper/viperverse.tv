@@ -73,6 +73,7 @@
 
       <nav>
         <ul>
+          <li><a target="_blank" href="https://discord.viperverse.tv">DISCORD</a></li>
           <li><a target="_blank" href="https://store.streamelements.com/dr_viper">MERCH</a></li>
           <li><a href="/goodies">GOODIES</a></li>
           <li><a target="_blank" href="https://soundcloud.com/doctor_viper/sets/stream-vibes-v2">VIPER VIBES</a></li>
