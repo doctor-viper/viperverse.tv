@@ -11,8 +11,20 @@
       <div class="doc-terminal">
 
         <div class="fake-toolbar">
-        
+          <div class="fake-button"></div>
+          <div class="fake-button fake-yellow"></div>
+          <div class="fake-button fake-green"></div>
         </div>
+
+        <!-- <p class="line1"><strong>VIPERVERSE</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>O N L I N E</em><span class="cursor1">_</span></p>
+        <p class="line2"><strong>DR_VIPER</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>O N L I N E</em><span class="cursor2">_</span></p>
+        <p class="line3"><strong>ALL SYSTEMS</strong>&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>N O M I N A L</em><span class="cursor3">_</span></p>
+        <p class="line4">> CONTINUE? (y/n)<span class="cursor4">_</span></p> -->
+
+        <p class="line1">WELCOME TO THE VIPERVERSE<span class="cursor1">_</span></p>
+        <p class="line2">HOME OF DR_VIPER<span class="cursor2">_</span></p>
+        <p class="line3">WANNABE KAROAKE STAR &amp; STREAMER<span class="cursor3">_</span></p>
+        <p class="line4">> CONTINUE? (y/n)<span class="cursor4">_</span></p>
         
         <svg>
       
@@ -66,23 +78,6 @@
       </div> -->
 
     </section>
-
-    <!-- <article>
-
-      <h1>Article Header</h1>
-
-      <p>Etiam pretium odio eu mi convallis vitae varius neque pharetra. Nulla vestibulum nisi ut sem cursus sed mattis nisi egestas.</p>
-
-      <h2>Article Subhead</h2>
-
-      <p>Vestibulum lacus erat, volutpat vel dignissim at, fringilla ut felis.</p>
-
-    </article> -->
-
-    <!-- <aside>
-      <h2>Sidebar Content</h2>
-      <p>Vestibulum lacus erat, volutpat vel dignissim at, fringilla ut felis.</p>
-    </aside> -->
 
   </main>
 

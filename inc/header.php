@@ -69,7 +69,9 @@
     
       <h1>
         <a href="/">VIPERVERSE</a>
-      </h1>      
+      </h1>
+      
+      <img class="sun" src="/assets/img/android-chrome-192x192.png" alt="SUN" />
 
       <nav>
         <ul>
