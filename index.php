@@ -21,10 +21,10 @@
         <p class="line3"><strong>ALL SYSTEMS</strong>&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>N O M I N A L</em><span class="cursor3">_</span></p>
         <p class="line4">> CONTINUE? (y/n)<span class="cursor4">_</span></p> -->
 
-        <p class="line1">WELCOME TO THE VIPERVERSE<span class="cursor1">_</span></p>
+        <!-- <p class="line1">WELCOME TO THE VIPERVERSE<span class="cursor1">_</span></p>
         <p class="line2">HOME OF DR_VIPER<span class="cursor2">_</span></p>
         <p class="line3">WANNABE KAROAKE STAR &amp; STREAMER<span class="cursor3">_</span></p>
-        <p class="line4">> CONTINUE? (y/n)<span class="cursor4">_</span></p>
+        <p class="line4">> CONTINUE? (y/n)<span class="cursor4">_</span></p> -->
         
         <svg>
       
@@ -54,7 +54,7 @@
           <line x1="80%" y1="0" x2="100%" y2="2.5%" />
 
           <!-- HORIZON -->
-          <line x1="0" y1="0" x2="100%" y2="0" />
+          <line class="horizon" x1="0" y1="0" x2="100%" y2="0" />
 
           <!-- MOVING LINES -->
           <line class="moving-line" x1="0" y1="0" x2="100%" y2="0" />      
