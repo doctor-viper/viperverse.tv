@@ -33,3 +33,11 @@ function showTerminal() {
     $(".fake-toolbar,.fake-button").removeClass("viperverse");
   });
 }
+
+// TO-DO
+/*
+
+  every time the terminal redraws write a simple 
+  service to dynamically / randomly get titles and order
+
+*/
