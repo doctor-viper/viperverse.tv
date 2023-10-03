@@ -150,43 +150,53 @@ main {
       background-color: #272727;
       position: relative;
       overflow: hidden;
-      padding: 60px 0 0 20px;
+      padding: 40px 0 0 0;
       margin-top: 25px;
 
       @keyframes bg-animation {
-        0% { transform: translate(0,0) }
-        10% { transform: translate(-5%,-5%) }
-        20% { transform: translate(-10%,5%) }
-        30% { transform: translate(5%,-10%) }
-        40% { transform: translate(-5%,15%) }
-        50% { transform: translate(-10%,5%) }
-        60% { transform: translate(15%,0) }
-        70% { transform: translate(0,10%) }
-        80% { transform: translate(-15%,0) }
-        90% { transform: translate(10%,5%) }
-        100% { transform: translate(5%,0) }
+        0%   { transform: translate(0,0)     }
+        10%  { transform: translate(-5%,-5%) }
+        20%  { transform: translate(-10%,5%) }
+        30%  { transform: translate(5%,-10%) }
+        40%  { transform: translate(-5%,15%) }
+        50%  { transform: translate(-10%,5%) }
+        60%  { transform: translate(15%,0)   }
+        70%  { transform: translate(0,10%)   }
+        80%  { transform: translate(-15%,0)  }
+        90%  { transform: translate(10%,5%)  }
+        100% { transform: translate(5%,0)    }
     }
 
       p {
         position: relative;
         left: 20px;
-        padding: 0 0 17px;
+        padding: 0;
+        line-height: 27px;
         text-align: left;
-        font-size: 1.25em;
+        font-size: 20px;
         font-family: monospace;
         white-space: nowrap;
         overflow: hidden;
         width: 0;
-        opacity: 0.5;
+        // opacity: 0.5;
       }
       
       span {
         color: #fff;
         font-weight: bold;
       }
+
+      .line {
+        font-family: monospace;
+        font-weight: 700;
+        color: #99ff99;
+        -webkit-animation: type .5s 1s steps(20, end) forwards;
+        -moz-animation: type .5s 1s steps(20, end) forwards;
+        -o-animation: type .5s 1s steps(20, end) forwards;
+        animation: type .5s 1s steps(20, end) forwards;
+      }
       
       .line1 {
-        color: #9CD9F0;
         -webkit-animation: type .5s 1s steps(20, end) forwards;
         -moz-animation: type .5s 1s steps(20, end) forwards;
         -o-animation: type .5s 1s steps(20, end) forwards;
@@ -201,7 +211,6 @@ main {
       }
       
       .line2 {
-        color: #CDEE69;
         -webkit-animation: type .5s 4.25s steps(20, end) forwards;
         -moz-animation: type .5s 4.25s steps(20, end) forwards;
         -o-animation: type .5s 4.25s steps(20, end) forwards;
@@ -216,11 +225,10 @@ main {
       }
       
       .line3 {
-        color: #E09690;
-        -webkit-animation: type .5s 7.5s steps(40, end) forwards;
-        -moz-animation: type .5s 7.5s steps(40, end) forwards;
-        -o-animation: type .5s 7.5s steps(40, end) forwards;
-        animation: type .5s 7.5s steps(40, end) forwards;
+        -webkit-animation: type .5s 7.5s steps(20, end) forwards;
+        -moz-animation: type .5s 7.5s steps(20, end) forwards;
+        -o-animation: type .5s 7.5s steps(20, end) forwards;
+        animation: type .5s 7.5s steps(20, end) forwards;
       }
       
       .cursor3 {
@@ -231,7 +239,6 @@ main {
       }
       
       .line4 {
-        color: #fff;
         -webkit-animation: type .5s 10.75s steps(20, end) forwards;
         -moz-animation: type .5s 10.75s steps(20, end) forwards;
         -o-animation: type .5s 10.75s steps(20, end) forwards;
@@ -239,10 +246,40 @@ main {
       }
       
       .cursor4 {
-        -webkit-animation: blink 1s 11.5s infinite;
-        -moz-animation: blink 1s 8.5s infinite;
-        -o-animation: blink 1s 8.5s infinite;
-        animation: blink 1s 8.5s infinite;
+        -webkit-animation: blink 1s 8.5s forwards;
+        -moz-animation: blink 1s 8.5s forwards;
+        -o-animation: blink 1s 8.5s forwards;
+        animation: blink 1s 8.5s forwards;
+      }
+
+      .line5 {
+        -webkit-animation: type .5s 13.25s steps(20, end) forwards;
+        -moz-animation: type .5s 13.25s steps(20, end) forwards;
+        -o-animation: type .5s 13.25s steps(20, end) forwards;
+        animation: type .5s 13.25s steps(20, end) forwards;
+      }
+      
+      .cursor5 {
+        -webkit-animation: blink 1s 11.5s forwards;
+        -moz-animation: blink 1s 11.5s forwards;
+        -o-animation: blink 1s 11.5s forwards;
+        animation: blink 1s 11.5s forwards;
+      }
+
+      .line6 {
+        padding-top: 15px;
+        font-weight: 700;
+        -webkit-animation: type .5s 15.25s steps(20, end) forwards;
+        -moz-animation: type .5s 15.25s steps(20, end) forwards;
+        -o-animation: type .5s 15.25s steps(20, end) forwards;
+        animation: type .5s 15.25s steps(20, end) forwards;
+      }
+      
+      .cursor6 {
+        -webkit-animation: blink 1s 16s infinite;
+        -moz-animation: blink 1s 16s infinite;
+        -o-animation: blink 1s 16s infinite;
+        animation: blink 1s 16s infinite;
       }
       
       @-webkit-keyframes blink {
@@ -387,8 +424,10 @@ main {
         line {
           position: absolute;
           top: 2px;
+          // height: 1px;
           stroke:rgb(233,0,127);
           stroke-width: 3px;
+          // box-shadow: 0px 0px 15px rgb(233,0,127);
           
           &.horizon {
             top: 0;

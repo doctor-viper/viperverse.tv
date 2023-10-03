@@ -21,10 +21,12 @@
         <p class="line3"><strong>ALL SYSTEMS</strong>&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>N O M I N A L</em><span class="cursor3">_</span></p>
         <p class="line4">> CONTINUE? (y/n)<span class="cursor4">_</span></p> -->
 
-        <!-- <p class="line1">WELCOME TO THE VIPERVERSE<span class="cursor1">_</span></p>
-        <p class="line2">HOME OF DR_VIPER<span class="cursor2">_</span></p>
-        <p class="line3">WANNABE KAROAKE STAR &amp; STREAMER<span class="cursor3">_</span></p>
-        <p class="line4">> CONTINUE? (y/n)<span class="cursor4">_</span></p> -->
+        <p class="line line1">> npm install vipos_mk4<span class="cursor1">_</span></p>
+        <p class="line line2">npm installing packages...<span class="cursor2">_</span></p>
+        <p class="line line3">- steak&amp;eggs v2.86 installed.<span class="cursor3">_</span></p>
+        <p class="line line4">- rock-n-roll_phd v3.14 installed.<span class="cursor4">_</span></p>
+        <p class="line line5">- cigar v1.0 installed.<span class="cursor5">_</span></p>
+        <p class="line6">> WOULD YOU LIKE TO HACK TIME? (y/n)<span class="cursor5">_</span></p>
         
         <svg>
       
