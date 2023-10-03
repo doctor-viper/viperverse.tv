@@ -273,6 +273,11 @@ main {
         -moz-animation: type .5s 15.25s steps(20, end) forwards;
         -o-animation: type .5s 15.25s steps(20, end) forwards;
         animation: type .5s 15.25s steps(20, end) forwards;
+
+        span.y-btn,
+        span.n-btn {
+          cursor: pointer;
+        }
       }
       
       .cursor6 {
