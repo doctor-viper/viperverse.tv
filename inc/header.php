@@ -47,7 +47,7 @@
   <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
   <!-- CSS -->
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' type='text/css'>
+  <!-- <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' type='text/css'> -->
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 
   <!-- Favicon -->
@@ -57,6 +57,7 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <script src="/assets/js/jquery.js" type="text/javascript"></script>
+  <script src="/assets/js/functions.js" type="text/javascript"></script>
 
 </head>
 

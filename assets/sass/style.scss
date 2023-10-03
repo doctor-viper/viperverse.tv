@@ -385,6 +385,12 @@ main {
         top: 0;
         left: 0;
         width: 100%;
+        transition: all 2s ease-out;
+
+        &.viperverse {
+          background: rgb(255,0,240);
+          background: linear-gradient(225deg, rgba(255,0,240,1) 0%, rgba(122,50,145,1) 100%);
+        }
 
         .fake-button {
           display: block;
@@ -395,6 +401,11 @@ main {
           margin: 8px 0 8px 7px;
           border-radius: 15px;
           border: 1px solid #555;
+          transition: all 2s ease-out;
+
+          &.viperverse {
+            background-color: #ff00f0;
+          }
 
           &:hover {
             cursor: pointer;
@@ -402,16 +413,23 @@ main {
 
           &.fake-yellow {
             background-color: yellow;
+            &.viperverse {
+              background-color: #e75333;
+            }
           }
 
           &.fake-green {
             background-color: green;
+            &.viperverse {
+              background-color: #ffae00;
+            }
           }
         }
 
       }
       
       svg {
+        display: none;
         bottom: 0;
         left: 0;
         height: 100px;
