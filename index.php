@@ -11,9 +11,9 @@
       <div class="doc-terminal">
 
         <div class="fake-toolbar">
-          <div class="fake-button"></div>
+          <div class="fake-button y-btn"></div>
           <div class="fake-button fake-yellow"></div>
-          <div class="fake-button fake-green"></div>
+          <div class="fake-button fake-green n-btn"></div>
         </div>
 
         <!-- <p class="line1"><strong>VIPERVERSE</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>O N L I N E</em><span class="cursor1">_</span></p>
@@ -26,7 +26,7 @@
         <p class="line line3">- steak&amp;eggs v2.86 installed.<span class="cursor3">_</span></p>
         <p class="line line4">- rock-n-roll_phd v3.14 installed.<span class="cursor4">_</span></p>
         <p class="line line5">- cigar v1.0 installed.<span class="cursor5">_</span></p>
-        <p class="line6">> WOULD YOU LIKE TO HACK TIME? (<span class="y-btn">y</span>/<span class="n-btn">n</span>)<span class="cursor6">_</span></p>
+        <p class="line6">> ENTER VIPERVERSE? (<span class="y-btn">y</span>/<span class="n-btn">n</span>)<span class="cursor6">_</span></p>
         
         <svg>
       

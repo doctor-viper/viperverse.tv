@@ -1,6 +1,5 @@
 
 $( document ).ready(function() {
-  console.log( "ready!" );
 
   $(document).keydown(function(keyPressed) {
     if (keyPressed.keyCode == 89) {
