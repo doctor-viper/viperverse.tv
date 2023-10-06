@@ -20,16 +20,21 @@ $( document ).ready(function() {
 });
 
 function showGame() {
-  $(".line,.line6").fadeOut( "slow", function() {
-    $("svg").fadeIn();
-    $(".fake-toolbar,.fake-button").addClass("viperverse");
+  $(".line,.line6,.doc-img").fadeOut( "fast", function() {
+    $(".doc-terminal").addClass("full-width");
+    $("svg,.exit-instructions").fadeIn();
+    $(".fake-toolbar,.fake-button").addClass("viperverse");    
   });
 }
 
 function showTerminal() {
-  $("svg").fadeOut("slow", function(){
-    $(".line,.line6").fadeIn();
-    $(".fake-toolbar,.fake-button").removeClass("viperverse");
+  $("svg,.exit-instructions").fadeOut("slow", function(){
+    $(".doc-terminal").removeClass("full-width");
+    setTimeout(function(){
+      //wait for card1 flip to finish and then flip 2
+      $(".line,.line6,.doc-img").fadeIn();
+      $(".fake-toolbar,.fake-button").removeClass("viperverse");
+    }, 100);    
   });
 }
 

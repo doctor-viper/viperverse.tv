@@ -14,12 +14,9 @@
           <div class="fake-button y-btn"></div>
           <div class="fake-button fake-yellow"></div>
           <div class="fake-button fake-green n-btn"></div>
+          <div class="exit-instructions">ESC TO EXIT</div>
         </div>
 
-        <!-- <p class="line1"><strong>VIPERVERSE</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>O N L I N E</em><span class="cursor1">_</span></p>
-        <p class="line2"><strong>DR_VIPER</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>O N L I N E</em><span class="cursor2">_</span></p>
-        <p class="line3"><strong>ALL SYSTEMS</strong>&nbsp;&nbsp;&nbsp;&nbsp;. . . <em>N O M I N A L</em><span class="cursor3">_</span></p>
-        <p class="line4">> CONTINUE? (y/n)<span class="cursor4">_</span></p> -->
 
         <p class="line line1">> npm install vipos_mk4<span class="cursor1">_</span></p>
         <p class="line line2">npm installing packages...<span class="cursor2">_</span></p>
