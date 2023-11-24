@@ -189,95 +189,100 @@ main {
       span {
         color: #fff;
         font-weight: bold;
+
+        &.text {
+          font-weight: 700;
+          color: #99ff99;
+        }
       }
 
       .line {
         font-family: monospace;
         font-weight: 700;
         color: #99ff99;
-        -webkit-animation: type .5s 1s steps(20, end) forwards;
-        -moz-animation: type .5s 1s steps(20, end) forwards;
-        -o-animation: type .5s 1s steps(20, end) forwards;
-        animation: type .5s 1s steps(20, end) forwards;
+        // -webkit-animation: type .5s 1s steps(20, end) forwards;
+        // -moz-animation: type .5s 1s steps(20, end) forwards;
+        // -o-animation: type .5s 1s steps(20, end) forwards;
+        // animation: type .5s 1s steps(20, end) forwards;
       }
       
       .line1 {
-        -webkit-animation: type .5s 1s steps(20, end) forwards;
-        -moz-animation: type .5s 1s steps(20, end) forwards;
-        -o-animation: type .5s 1s steps(20, end) forwards;
-        animation: type .5s 1s steps(20, end) forwards;
+        -webkit-animation: type .5s .5s steps(22, end) forwards;
+        -moz-animation: type .5s .5s steps(22, end) forwards;
+        -o-animation: type .5s .5s steps(22, end) forwards;
+        animation: type .5s .5s steps(22, end) forwards;
       }
       
       .cursor1 {
-        -webkit-animation: blink 1s 2s 2 forwards;
-        -moz-animation: blink 1s 2s 2 forwards;
-        -o-animation: blink 1s 2s 2 forwards;
-        animation: blink 1s 2s 2 forwards;
+        -webkit-animation: blink 0.5s 0.5s 2 forwards;
+        -moz-animation: blink 0.5s 0.5s 2 forwards;
+        -o-animation: blink 0.5s 0.5s 2 forwards;
+        animation: blink 0.5s 0.5s 2 forwards;
       }
       
       .line2 {
-        -webkit-animation: type .5s 4.25s steps(20, end) forwards;
-        -moz-animation: type .5s 4.25s steps(20, end) forwards;
-        -o-animation: type .5s 4.25s steps(20, end) forwards;
-        animation: type .5s 4.25s steps(20, end) forwards;
+        -webkit-animation: type .5s 1.5s steps(20, end) forwards;
+        -moz-animation: type .5s 1.5s steps(20, end) forwards;
+        -o-animation: type .5s 1.5s steps(20, end) forwards;
+        animation: type .5s 1.5s steps(20, end) forwards;
       }
       
       .cursor2 {
-        -webkit-animation: blink 1s 5.25s 2 forwards;
-        -moz-animation: blink 1s 5.25s 2 forwards;
-        -o-animation: blink 1s 5.25s 2 forwards;
-        animation: blink 1s 5.25s 2 forwards;
+        -webkit-animation: blink 0.5s 1.75s 2 forwards;
+        -moz-animation: blink 0.5s 1.75s 2 forwards;
+        -o-animation: blink 0.5s 1.75s 2 forwards;
+        animation: blink 0.5s 1.75s 2 forwards;
       }
       
       .line3 {
-        -webkit-animation: type .5s 7.5s steps(20, end) forwards;
-        -moz-animation: type .5s 7.5s steps(20, end) forwards;
-        -o-animation: type .5s 7.5s steps(20, end) forwards;
-        animation: type .5s 7.5s steps(20, end) forwards;
+        -webkit-animation: type .5s 2.5s steps(20, end) forwards;
+        -moz-animation: type .5s 2.5s steps(20, end) forwards;
+        -o-animation: type .5s 2.5s steps(20, end) forwards;
+        animation: type .5s 2.5s steps(20, end) forwards;
       }
       
       .cursor3 {
-        -webkit-animation: blink 1s 8.5s 2 forwards;
-        -moz-animation: blink 1s 8.5s 2 forwards;
-        -o-animation: blink 1s 8.5s 2 forwards;
-        animation: blink 1s 8.5s 2 forwards;
+        -webkit-animation: blink 0.5s 2.75s 2 forwards;
+        -moz-animation: blink 0.5s 2.75s 2 forwards;
+        -o-animation: blink 0.5s 2.75s 2 forwards;
+        animation: blink 0.5s 2.75s 2 forwards;
       }
       
       .line4 {
-        -webkit-animation: type .5s 10.75s steps(20, end) forwards;
-        -moz-animation: type .5s 10.75s steps(20, end) forwards;
-        -o-animation: type .5s 10.75s steps(20, end) forwards;
-        animation: type .5s 10.75s steps(20, end) forwards;
+        -webkit-animation: type .5s 3.5s steps(20, end) forwards;
+        -moz-animation: type .5s 3.5s steps(20, end) forwards;
+        -o-animation: type .5s 3.5s steps(20, end) forwards;
+        animation: type .5s 3.5s steps(20, end) forwards;
       }
       
       .cursor4 {
-        -webkit-animation: blink 1s 8.5s forwards;
-        -moz-animation: blink 1s 8.5s forwards;
-        -o-animation: blink 1s 8.5s forwards;
-        animation: blink 1s 8.5s forwards;
+        -webkit-animation: blink 0.5s 4s forwards;
+        -moz-animation: blink 0.5s 4s forwards;
+        -o-animation: blink 0.5s 4s forwards;
+        animation: blink 0.5s 4s forwards;
       }
 
       .line5 {
-        -webkit-animation: type .5s 13.25s steps(20, end) forwards;
-        -moz-animation: type .5s 13.25s steps(20, end) forwards;
-        -o-animation: type .5s 13.25s steps(20, end) forwards;
-        animation: type .5s 13.25s steps(20, end) forwards;
+        -webkit-animation: type .5s 4.5s steps(20, end) forwards;
+        -moz-animation: type .5s 4.5s steps(20, end) forwards;
+        -o-animation: type .5s 4.5s steps(20, end) forwards;
+        animation: type .5s 4.5s steps(20, end) forwards;
       }
       
       .cursor5 {
-        -webkit-animation: blink 1s 11.5s forwards;
-        -moz-animation: blink 1s 11.5s forwards;
-        -o-animation: blink 1s 11.5s forwards;
-        animation: blink 1s 11.5s forwards;
+        -webkit-animation: blink 0.5s 5s forwards;
+        -moz-animation: blink 0.5s 5s forwards;
+        -o-animation: blink 0.5s 5s forwards;
+        animation: blink 0.5s 5s forwards;
       }
 
       .line6 {
         padding-top: 15px;
         font-weight: 700;
-        -webkit-animation: type .5s 15.25s steps(20, end) forwards;
-        -moz-animation: type .5s 15.25s steps(20, end) forwards;
-        -o-animation: type .5s 15.25s steps(20, end) forwards;
-        animation: type .5s 15.25s steps(20, end) forwards;
+        -webkit-animation: type .5s 5.5s steps(20, end) forwards;
+        -moz-animation: type .5s 5.5s steps(20, end) forwards;
+        -o-animation: type .5s 5.5s steps(20, end) forwards;
+        animation: type .5s 5.5s steps(20, end) forwards;
 
         span.y-btn,
         span.n-btn {
@@ -286,10 +291,10 @@ main {
       }
       
       .cursor6 {
-        -webkit-animation: blink 1s 16s infinite;
-        -moz-animation: blink 1s 16s infinite;
-        -o-animation: blink 1s 16s infinite;
-        animation: blink 1s 16s infinite;
+        -webkit-animation: blink 0.5s 6s infinite;
+        -moz-animation: blink 0.5s 6s infinite;
+        -o-animation: blink 0.5s 6s infinite;
+        animation: blink 0.5s 6s infinite;
       }
       
       @-webkit-keyframes blink {
