@@ -20,9 +20,9 @@
 
         <p class="line line1">> npm install vipos_mk4<span class="cursor1">_</span></p>
         <p class="line line2">npm installing packages...<span class="cursor2">_</span></p>
-        <p class="line line3">- steak&amp;eggs v2.86 installed.<span class="cursor3">_</span></p>
-        <p class="line line4">- rock-n-roll_phd v3.14 installed.<span class="cursor4">_</span></p>
-        <p class="line line5">- cigar v1.0 installed.<span class="cursor5">_</span></p>
+        <p class="line line3">- <span class="text">steak&amp;eggs v2.86</span> installed.<span class="cursor3">_</span></p>
+        <p class="line line4">- <span class="text">rock-n-roll_phd v3.14</span> installed.<span class="cursor4">_</span></p>
+        <p class="line line5">- <span class="text">cigar v1.0</span> installed.<span class="cursor5">_</span></p>
         <p class="line6">> ENTER VIPERVERSE? (<span class="y-btn">y</span>/<span class="n-btn">n</span>)<span class="cursor6">_</span></p>
         
         <svg>
