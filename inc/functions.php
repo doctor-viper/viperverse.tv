@@ -6,9 +6,11 @@
         "rock-n-roll_phd v3.14",
         "cigar v1.0",
         "cowoboy-hat v6.6.6",
-        "movies v1.2.3",
-        "viper-guide v3.7",
-        "sfx_pkg v8.6.7"
+        "movies v4.6692",
+        "viper-guide v2.718",
+        "sfx_pkg v867.5309",
+        "vipos_core v6.28",
+        "groovy v6.9"
     );
 
     // Gets a random amount of packages

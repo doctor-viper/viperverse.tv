@@ -23,7 +23,9 @@
         <p class="line line3">- <span class="text">steak&amp;eggs v2.86</span> installed.<span class="cursor3">_</span></p>
         <p class="line line4">- <span class="text">rock-n-roll_phd v3.14</span> installed.<span class="cursor4">_</span></p>
         <p class="line line5">- <span class="text">cigar v1.0</span> installed.<span class="cursor5">_</span></p>
-        <p class="line6">> ENTER VIPERVERSE? (<span class="y-btn">y</span>/<span class="n-btn">n</span>)<span class="cursor6">_</span></p>
+        <p class="line line6">- <span class="text">rock-n-roll_phd v3.14</span> installed.<span class="cursor6">_</span></p>
+        <p class="line line7">- <span class="text">cigar v1.0</span> installed.<span class="cursor7">_</span></p>
+        <p class="line8">> ENTER VIPERVERSE? (<span class="y-btn">y</span>/<span class="n-btn">n</span>)<span class="cursor6">_</span></p>
         
         <svg>
       

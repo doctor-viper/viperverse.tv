@@ -31,8 +31,8 @@ $( document ).ready(function() {
 
 
 /**
- * Gets three ( 3 ) random NPM package
- * descriptions for the vipos install script
+ * Gets random NPM package descriptions
+ * for the vipos install script
  * 
  */
 function get_random_packages() {
