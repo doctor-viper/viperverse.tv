@@ -44,6 +44,8 @@ function get_random_packages() {
       $(".line3 .text").text(data[0]);
       $(".line4 .text").text(data[1]);
       $(".line5 .text").text(data[2]);
+      $(".line6 .text").text(data[3]);
+      $(".line7 .text").text(data[4]);
     },
     error: function (xhr, ajaxOptions, thrownError) {
       console.log(xhr.status);
@@ -60,7 +62,7 @@ function get_random_packages() {
  * 
  */
 function showGame() {
-  $(".line,.line6,.doc-img").fadeOut( "fast", function() {
+  $(".line,.line8,.doc-img").fadeOut( "fast", function() {
     $(".doc-terminal").addClass("full-width");
     $("svg,.exit-instructions").fadeIn();
     $(".fake-toolbar,.fake-button").addClass("viperverse");    
@@ -78,7 +80,7 @@ function showTerminal() {
     $(".doc-terminal").removeClass("full-width");
     setTimeout(function(){
       //wait for card1 flip to finish and then flip 2
-      $(".line,.line6,.doc-img").fadeIn();
+      $(".line,.line8,.doc-img").fadeIn();
       $(".fake-toolbar,.fake-button").removeClass("viperverse");
     }, 100);    
   });

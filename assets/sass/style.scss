@@ -277,12 +277,40 @@ main {
       }
 
       .line6 {
-        padding-top: 15px;
-        font-weight: 700;
         -webkit-animation: type .5s 5.5s steps(20, end) forwards;
         -moz-animation: type .5s 5.5s steps(20, end) forwards;
         -o-animation: type .5s 5.5s steps(20, end) forwards;
         animation: type .5s 5.5s steps(20, end) forwards;
+      }
+      
+      .cursor6 {
+        -webkit-animation: blink 0.5s 6s forwards;
+        -moz-animation: blink 0.5s 6s forwards;
+        -o-animation: blink 0.5s 6s forwards;
+        animation: blink 0.5s 6s forwards;
+      }
+
+      .line7 {
+        -webkit-animation: type .5s 6.5s steps(20, end) forwards;
+        -moz-animation: type .5s 6.5s steps(20, end) forwards;
+        -o-animation: type .5s 6.5s steps(20, end) forwards;
+        animation: type .5s 6.5s steps(20, end) forwards;
+      }
+      
+      .cursor7 {
+        -webkit-animation: blink 0.5s 7s forwards;
+        -moz-animation: blink 0.5s 7s forwards;
+        -o-animation: blink 0.5s 7s forwards;
+        animation: blink 0.5s 7s forwards;
+      }
+
+      .line8 {
+        padding-top: 15px;
+        font-weight: 700;
+        -webkit-animation: type .5s 7.5s steps(20, end) forwards;
+        -moz-animation: type .5s 7.5s steps(20, end) forwards;
+        -o-animation: type .5s 7.5s steps(20, end) forwards;
+        animation: type .5s 7.5s steps(20, end) forwards;
 
         span.y-btn,
         span.n-btn {
@@ -292,11 +320,11 @@ main {
 
       // fix styles
       
-      .cursor6 {
-        -webkit-animation: blink 0.5s 6s infinite;
-        -moz-animation: blink 0.5s 6s infinite;
-        -o-animation: blink 0.5s 6s infinite;
-        animation: blink 0.5s 6s infinite;
+      .cursor8 {
+        -webkit-animation: blink 0.5s 8s infinite;
+        -moz-animation: blink 0.5s 8s infinite;
+        -o-animation: blink 0.5s 8s infinite;
+        animation: blink 0.5s 8s infinite;
       }
       
       @-webkit-keyframes blink {

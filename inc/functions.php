@@ -14,7 +14,7 @@
     );
 
     // Gets a random amount of packages
-    function get_random_packages($num = 3) {
+    function get_random_packages($num = 5) {
         global $vipos_packages;
         shuffle($vipos_packages);
         return array_slice($vipos_packages, 0, $num);
