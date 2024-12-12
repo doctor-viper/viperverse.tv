@@ -4,28 +4,24 @@
 
     <section class="hero-image-and-title">
 
-      <div class="doc-img">
-        <img src="/assets/img/android-chrome-512x512.png" alt="Doctor Viper" />
-      </div>
-      
       <div class="doc-terminal">
 
         <div class="fake-toolbar">
-          <div class="fake-button y-btn"></div>
-          <div class="fake-button fake-yellow"></div>
-          <div class="fake-button fake-green n-btn"></div>
-          <div class="exit-instructions">ESC TO EXIT</div>
+          <div class="fake-button viperverse y-btn"></div>
+          <div class="fake-button viperverse fake-yellow"></div>
+          <div class="fake-button viperverse fake-green n-btn"></div>
         </div>
 
-
-        <p class="line line1">> npm install vipos_mk4<span class="cursor1">_</span></p>
-        <p class="line line2">npm installing packages...<span class="cursor2">_</span></p>
-        <p class="line line3">- <span class="text"></span> installed.<span class="cursor3">_</span></p>
-        <p class="line line4">- <span class="text"></span> installed.<span class="cursor4">_</span></p>
-        <p class="line line5">- <span class="text"></span> installed.<span class="cursor5">_</span></p>
-        <p class="line line6">- <span class="text"></span> installed.<span class="cursor6">_</span></p>
-        <p class="line line7">- <span class="text"></span> installed.<span class="cursor7">_</span></p>
-        <p class="line8">> ENTER VIPERVERSE? (<span class="y-btn">y</span>/<span class="n-btn">n</span>)<span class="cursor6">_</span></p>
+        <!-- <span class="terminal-text">
+          <p class="line line1">> npm install vipos_mk4<span class="cursor1">_</span></p>
+          <p class="line line2">npm installing packages...<span class="cursor2">_</span></p>
+          <p class="line line3">- <span class="text"></span> installed.<span class="cursor3">_</span></p>
+          <p class="line line4">- <span class="text"></span> installed.<span class="cursor4">_</span></p>
+          <p class="line line5">- <span class="text"></span> installed.<span class="cursor5">_</span></p>
+          <p class="line line6">- <span class="text"></span> installed.<span class="cursor6">_</span></p>
+          <p class="line line7">- <span class="text"></span> installed.<span class="cursor7">_</span></p>
+          <p class="line8">> WELCOME TO THE VIPERVERSE<span class="cursor8">_</span></p>
+        </span> -->
         
         <svg>
       
