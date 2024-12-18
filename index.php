@@ -11,17 +11,16 @@
           <div class="fake-button viperverse fake-yellow"></div>
           <div class="fake-button viperverse fake-green n-btn"></div>
         </div>
+        
+        <h2>welcome to the</h2>
 
-        <!-- <span class="terminal-text">
-          <p class="line line1">> npm install vipos_mk4<span class="cursor1">_</span></p>
-          <p class="line line2">npm installing packages...<span class="cursor2">_</span></p>
-          <p class="line line3">- <span class="text"></span> installed.<span class="cursor3">_</span></p>
-          <p class="line line4">- <span class="text"></span> installed.<span class="cursor4">_</span></p>
-          <p class="line line5">- <span class="text"></span> installed.<span class="cursor5">_</span></p>
-          <p class="line line6">- <span class="text"></span> installed.<span class="cursor6">_</span></p>
-          <p class="line line7">- <span class="text"></span> installed.<span class="cursor7">_</span></p>
-          <p class="line8">> WELCOME TO THE VIPERVERSE<span class="cursor8">_</span></p>
-        </span> -->
+<p>&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;__________&nbsp;&nbsp;__________&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;_____&nbsp;______</p>
+<p>|&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;&nbsp;_/&nbsp;__&nbsp;\/&nbsp;____/&nbsp;__&nbsp;\&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;____/&nbsp;__&nbsp;\/&nbsp;___//&nbsp;____/</p>
+<p>|&nbsp;|&nbsp;/&nbsp;//&nbsp;//&nbsp;/_/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/&nbsp;|&nbsp;/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/\__&nbsp;\/&nbsp;__/</p>
+<p>|&nbsp;|/&nbsp;//&nbsp;//&nbsp;____/&nbsp;/___/&nbsp;_,&nbsp;_/|&nbsp;|/&nbsp;/&nbsp;/___/&nbsp;_,&nbsp;_/___/&nbsp;/&nbsp;/___</p>
+<p>|___/___/_/&nbsp;&nbsp;&nbsp;/_____/_/&nbsp;|_|&nbsp;|___/_____/_/&nbsp;|_|/____/_____/</p>
+
+
         
         <svg>
       
@@ -64,16 +63,6 @@
 
       </div>
       
-      <!-- <div class="doc-title">
-        <h1>Hi Friends!</h1>
-        <h2>
-        <em>Welcome to the <strong class="viperverse">VIPERVERSE</strong></em><br />
-          <em>Home of <strong class="doctor-viper">Doctor Viper</strong></em><br />
-          Streamer, Father, Engineer,<br />
-          80s Enthusiast, & Lego Builder.          
-        </h2>
-      </div> -->
-
     </section>
 
   </main>
