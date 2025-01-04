@@ -196,6 +196,7 @@ main {
     left: 0;
     margin-left: -50%;
     position: fixed;
+    transition: all ease-in-out 400ms;
     width: 200%;
     
     line {
@@ -262,12 +263,27 @@ main {
 /* MEDIA QUERIES
 -------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 480px) {
-	
+@media screen and (max-width: 1120px) {
+  header {
+    div {
+      width: 90%;
+    }
+  }	
 }
 
 @media screen and (min-height: 1120px) {
   .box {
     height: 500px;
+  }
+}
+
+@media screen and (max-height: 1120px) {
+  .box {
+    bottom: 25%;
+  }
+  main {
+    svg {
+      height: 25%;
+    }
   }
 }

@@ -4,7 +4,6 @@
  */
 $( document ).ready(function() {
 
-
 console.log(`%c
 WELCOME TO THE
  _    __________  __________ _    ____________  _____ ______
@@ -16,7 +15,8 @@ WELCOME TO THE
 KNOWLEDGE IS POWER - FOR REAL.
 
 viper:\\>
-`,`font-family:monospace`);
+`,`font-family:monospace`
+);
 
 });
 
