@@ -32,10 +32,10 @@
 -------------------------------------------------------------------------------*/
 @use 'fonts';
 
-/* BODY STYLES
+/* BODY + GLOBAL STYLES
 -------------------------------------------------------------------------------*/
 body {
-  animation: move-it 2s linear infinite;
+  animation: move-it 3s linear infinite;
   background: repeating-linear-gradient(
     45deg,
     #0f0f0f,
@@ -47,6 +47,13 @@ body {
   margin: 0;
   overflow-x: hidden;
   transition: all ease-in-out 100ms;
+}
+
+header div,
+main,
+footer {
+  margin: 0 auto;
+  width: 980px;
 }
 
 /* HEADER STYLES
@@ -68,9 +75,7 @@ header {
   }
 
   div {
-    margin: 0 auto;
     position: relative;
-    width: 980px;
 
     h1 {
       padding-left: 55px;
@@ -144,10 +149,12 @@ header {
 }
 
 
-.box {
+/* MAIN PAGE, 80s SUN STYLES
+-------------------------------------------------------------------------------*/
+.sun-box {
   border-style: none;
   border-color: #ff0000 #0000ff;
-  bottom: 35%;
+  bottom: 25%;
   display: block;
   height: 0;
   margin: auto;
@@ -157,16 +164,30 @@ header {
   width: 100%;
   z-index: -9999;
 
+  .sun-bg {
+    background-color: #000;
+    border-radius: 500px;
+    height: 750px;
+    left: 50%;
+    margin-left: -375px;
+    position: absolute;
+    top: 115px;
+    width: 750px;
+  }
+
   .sun {
     background-image: -webkit-linear-gradient(top, #FFFE3A 2%, #FCA16B 25%, #FF5A85 50%, #fd2fa5 75%, #FE18AD 100%);
     border-radius: 500px;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(254,24,173,1);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(254,24,173,1);
+    box-shadow: 0px 0px 50px 0px rgba(254,24,173,1);
     height: 750px;
     left: 50%;
     margin-left: -375px;
     opacity: 0.25;
     position: absolute;
     top: 115px;
-    width: 750px;
+    width: 750px;    
   }
 
   .sunglow {
@@ -179,111 +200,194 @@ header {
     top: 115px;
     width: 750px;
   }
+}
+
+
+/* MAIN PAGE, 80s GRID LINE STYLES
+-------------------------------------------------------------------------------*/
+svg.moving-grid {
+  animation: bg-animation .2s infinite;
+  background: #080808 url('../img/noise-transparent.png') repeat 0 0;
+  background-repeat: repeat;
+  bottom: 0;
+  display: inline;
+  height: 25%;
+  left: 0;
+  margin-left: -50%;
+  position: fixed;
+  transition: all ease-in-out 400ms;
+  width: 200%;
+  
+  line {
+    height: 1px;
+    opacity: 0.5;
+    position: absolute;
+    stroke:rgb(233,0,127);
+    stroke-width: 3px;
+    top: 2px;
+    
+    &.horizon {
+      stroke:rgb(186, 0, 233);
+      stroke-width: 5px;
+      top: 0;
+    } 
+  }
+  
+  .moving-line {
+    animation: moveline 4s ease-in-out infinite; // SLOWER
+    stroke:rgb(186, 0, 233);
+  }
+
+  /* SLOWER */
+  .moving-line.two    {   animation-delay: 0.4s;    }
+  .moving-line.three  {   animation-delay: 0.8s;    }
+  .moving-line.four   {   animation-delay: 1.2s;    }
+  .moving-line.five   {   animation-delay: 1.6s;    }
+  .moving-line.six    {   animation-delay: 2.0s;    }
+  .moving-line.seven  {   animation-delay: 2.4s;    }
+  .moving-line.eight  {   animation-delay: 2.8s;    }
+  .moving-line.nine   {   animation-delay: 3.2s;    }
+  .moving-line.ten    {   animation-delay: 3.6s;    }
 
 }
+
+  
 
 /* MAIN STYLES
 -------------------------------------------------------------------------------*/
 main {
-    
-  svg {
-    animation: bg-animation .2s infinite;
-    background: #111111 url('../img/noise-transparent.png') repeat 0 0;
-    background-repeat: repeat;
-    bottom: 0;
-    display: inline;
-    height: 35%;
-    left: 0;
-    margin-left: -50%;
-    position: fixed;
-    transition: all ease-in-out 400ms;
-    width: 200%;
-    
-    line {
-      height: 1px;
-      position: absolute;
-      stroke:rgb(233,0,127);
-      stroke-width: 3px;
-      top: 2px;
-      
-      &.horizon {
-        stroke: #555;
-        stroke-width: 5px;
-        top: 0;
-      } 
-    }        
+  
+  min-height: 300px;
+  padding: 40px 0;
+
+  h2, p {
+    font-family: monospace;
   }
 
-    .moving-line {
-      animation: moveline 2s ease-in-out infinite; // SLOWER
-    }
+  p {
+    animation: type 1.5s 1s steps(45, end) forwards, glow 1s ease-in-out 2.5s 3 alternate;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0 0 0 95px;
+    text-shadow: rgb(255,0,240) -2px 2px 2px;
+    white-space: nowrap;
+    
+  }
 
-    /* SLOWER */
-    .moving-line.two    {   animation-delay: 0.2s;  }
-    .moving-line.three  {   animation-delay: 0.4s;  }
-    .moving-line.four   {   animation-delay: 0.6s;  }
-    .moving-line.five   {   animation-delay: 0.8s;  }
-    .moving-line.six    {   animation-delay: 1s;    }
-    .moving-line.seven  {   animation-delay: 1.2s;  }
-    .moving-line.eight  {   animation-delay: 1.4s;  }
-    .moving-line.nine   {   animation-delay: 1.6s;  }
-    .moving-line.ten    {   animation-delay: 1.8s;  }
+  h2 {
+    animation: fade-title 1s ease;
+    color: #eee;
+    font-size: 35px;
+    font-weight: bolder;
+    height: 35px;
+    letter-spacing: 10px;
+    line-height: 35px;
+    opacity: 0.85;
+    overflow: hidden;
+    text-align: center;
+    text-transform: lowercase;    
+    white-space: nowrap;
+  }
 
 }
+
+
+
+/* FOOTER STYLES
+-------------------------------------------------------------------------------*/
+footer {
+  text-align: center;
+}
+
 
 
 /* KEYFRAMES
 -------------------------------------------------------------------------------*/
 
+// Main BG
 @keyframes move-it {
-  0%   { background-position: initial;   }
-  100% { background-position: 100px 0px; }
+  0%   { background-position: initial;              }
+  100% { background-position: 100px 0px;            }
 }
 
+// SVG Statis Noise BG
 @keyframes bg-animation {
-  0%   { background-position: 0,0;       }
-  10%  { background-position: -5%,-5%;   }
-  20%  { background-position: -10%,5%;   }
-  30%  { background-position: 5%,-10%;   }
-  40%  { background-position: -5%,15%;   }
-  50%  { background-position: -10%,5%;   }
-  60%  { background-position: 15%,0;     }
-  70%  { background-position: 0,10%;     }
-  80%  { background-position: -15%,0;    }
-  90%  { background-position: 10%,5%;    }
-  100% { background-position: 5%,0;      }
+  0%   { background-position: 0,0;                  }
+  10%  { background-position: -5%,-5%;              }
+  20%  { background-position: -10%,5%;              }
+  30%  { background-position: 5%,-10%;              }
+  40%  { background-position: -5%,15%;              }
+  50%  { background-position: -10%,5%;              }
+  60%  { background-position: 15%,0;                }
+  70%  { background-position: 0,10%;                }
+  80%  { background-position: -15%,0;               }
+  90%  { background-position: 10%,5%;               }
+  100% { background-position: 5%,0;                 }
 }
 
+// SVG Lines moving towards user
 @keyframes moveline {
-  0%   { transform: translateY(2px);     }
-  100% { transform: translateY(1200px);  }
+  0%   { opacity: 0.25; transform: translateY(3px); }
+  30%  { stroke:rgb(233,0,127);                   }
+  50%  { opacity: 1;                                }
+  100% { transform: translateY(1200px);             }
 }
+
+
+// Keyframes for the typing animation
+@-webkit-keyframes type {
+  0%   { overflow: hidden; width: 0%;               }
+  99%  { overflow: hidden; width: 90%;              }
+  100% { overflow: visible;                         }
+}
+
+@-moz-keyframes type {
+  0%   { overflow: hidden; width: 0%;               }
+  99%  { overflow: hidden; width: 90%;              }
+  100% { overflow: visible;                         }
+}
+
+@-o-keyframes type {
+  0%   { overflow: hidden; width: 0%;               }
+  99%  { overflow: hidden; width: 90%;              }
+  100% { overflow: visible;                         }
+}
+
+@keyframes type {
+  0%   { overflow: hidden; width: 0%;               }
+  99%  { overflow: hidden; width: 90%;              }
+  100% { overflow: visible;                         }
+}
+
+// Keyframes for the glowing effect on Viperverse ASCII text
+@keyframes glow {
+  0%  { 
+    text-shadow: rgb(255,0,240) -2px 2px 2px; 
+  }  
+  50% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+  100% { 
+    text-shadow: rgb(255,0,240) -2px 2px 2px; 
+  }
+}
+
 
 
 /* MEDIA QUERIES
 -------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1120px) {
-  header {
-    div {
-      width: 90%;
-    }
-  }	
+  header div,
+  main,
+  footer {
+    width: 90%;
+  }
 }
 
 @media screen and (min-height: 1120px) {
-  .box {
+  .sun-box {
     height: 500px;
-  }
-}
-
-@media screen and (max-height: 1120px) {
-  .box {
-    bottom: 25%;
-  }
-  main {
-    svg {
-      height: 25%;
-    }
   }
 }
