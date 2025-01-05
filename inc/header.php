@@ -61,7 +61,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <script src="/assets/js/jquery.js" type="text/javascript"></script>
   <script src="/assets/js/functions.js" type="text/javascript"></script>
 
 </head>
