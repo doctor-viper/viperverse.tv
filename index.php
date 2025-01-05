@@ -70,7 +70,8 @@
     <p>|___/___/_/&nbsp;&nbsp;&nbsp;/_____/_/&nbsp;|_|&nbsp;|___/_____/_/&nbsp;|_|/____/_____/</p>
     </span>
 
-    <p class="description">just another goofy streamer dude<br />contact: <a href="mailto:doc@viperverse.tv">doc@viperverse.tv</a></p>
+    <p class="description">just another goofy streamer dude</p>
+    <p class="description">contact: <a href="mailto:doc@viperverse.tv">doc@viperverse.tv</a></p>
 
     <ul class="socials">
       <li><a target="_blank" href="https://discord.viperverse.tv" title="Discord"><img src="../assets/img/discord.svg" alt="Discord"></a></li>
