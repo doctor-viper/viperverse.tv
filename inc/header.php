@@ -14,6 +14,11 @@
   - repo management: https://github.com/new
   - favicon generator: https://favicon.io
   - social meta tag generators: https://metatags.io — https://megatags.co
+  - social media icon svgs: https://simpleicons.org/
+  - css written in sass: https://sass-lang.com/
+
+  ENJOY YOUR REWARD:
+  - rangers are forever: https://www.youtube.com/watch?v=IvWtI4NZjTI
 
 -->
 <html lang="en">	
@@ -76,6 +81,7 @@
         <ul>
           <li><a target="_blank" href="https://discord.viperverse.tv">DISCORD</a></li>
           <li><a target="_blank" href="https://www.twitch.tv/dr_viper">STREAMS</a></li>
+          <li><a target="_blank" href="https://www.instagram.com/doctor.viper/">INSTAGRAM</a></li>
           <li><a target="_blank" href="https://soundcloud.com/doctor_viper/sets/stream-vibes-v2">VIPER VIBES</a></li>
         </ul>
       </nav>

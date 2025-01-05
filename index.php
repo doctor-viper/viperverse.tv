@@ -66,11 +66,22 @@
   <main class="clearfix">
         
     <h2>welcome to the</h2>
+    <span class="viperverse-ascii">
     <p>&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;__________&nbsp;&nbsp;__________&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;_____&nbsp;______</p>
     <p>|&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;&nbsp;_/&nbsp;__&nbsp;\/&nbsp;____/&nbsp;__&nbsp;\&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;____/&nbsp;__&nbsp;\/&nbsp;___//&nbsp;____/</p>
     <p>|&nbsp;|&nbsp;/&nbsp;//&nbsp;//&nbsp;/_/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/&nbsp;|&nbsp;/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/\__&nbsp;\/&nbsp;__/</p>
     <p>|&nbsp;|/&nbsp;//&nbsp;//&nbsp;____/&nbsp;/___/&nbsp;_,&nbsp;_/|&nbsp;|/&nbsp;/&nbsp;/___/&nbsp;_,&nbsp;_/___/&nbsp;/&nbsp;/___</p>
-    <p>|___/___/_/&nbsp;&nbsp;&nbsp;/_____/_/&nbsp;|_|&nbsp;|___/_____/_/&nbsp;|_|/____/_____/</p>   
+    <p>|___/___/_/&nbsp;&nbsp;&nbsp;/_____/_/&nbsp;|_|&nbsp;|___/_____/_/&nbsp;|_|/____/_____/</p>
+    </span>
+
+    <p class="description">just another goofy streamer dude<br />contact: <a href="mailto:doc@viperverse.tv">doc@viperverse.tv</a></p>
+
+    <ul class="socials">
+      <li><a target="_blank" href="https://discord.viperverse.tv" title="Discord"><img src="../assets/img/discord.svg" alt="Discord"></a></li>
+      <li><a target="_blank" href="https://www.twitch.tv/dr_viper" title="Twitch"><img src="../assets/img/twitch.svg" alt="Twitch"></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/doctor.viper/" title="Instagram"><img src="../assets/img/instagram.svg" alt="Instagram"></a></li>
+      <li><a target="_blank" href="https://soundcloud.com/doctor_viper/sets/stream-vibes-v2" title="Soundcloud"><img src="../assets/img/soundcloud.svg" alt="Soundc6loud"></a></li>
+    <ul>
 
   </main>
 
