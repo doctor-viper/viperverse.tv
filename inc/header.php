@@ -7,7 +7,7 @@
     | |/ // // ____/ /___/ _, _/| |/ / /___/ _, _/___/ / /___   
     |___/___/_/   /_____/_/ |_| |___/_____/_/ |_|/____/_____/ 
     
-    Template provided by:
+  TEMPLATE PROVIDED BY:
   - https://github.com/murtaugh/HTML5-Reset
   
   3RD PARTY TOOLS:
@@ -18,7 +18,7 @@
   - css written in sass: https://sass-lang.com/
 
   ENJOY YOUR REWARD:
-  - rangers are forever: https://www.youtube.com/watch?v=IvWtI4NZjTI
+  - Rangers are Forever: https://www.youtube.com/watch?v=IvWtI4NZjTI
 
 -->
 <html lang="en">	
