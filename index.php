@@ -1,84 +1,87 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
 
+  <!-- -------------------------------- -->
+  <!-- 80s Sun Background thinger       -->
+  <!-- -------------------------------- -->
+  <div class="sun-box">
+    <div class="sun-bg"></div>
+    <div class="sun"></div>
+    <div class="sunglow"></div>
+  </div>
+
+
+
+  <!-- -------------------------------- -->
+  <!-- 80s Grid Lines                   -->
+  <!-- -------------------------------- -->    
+  <svg class="moving-grid">
+
+    <!-- VERTICAL LINES -->
+    <line x1="48%" y1="0" x2="40%" y2="100%" />
+    <line x1="52%" y1="0" x2="60%" y2="100%" />
+
+    <line x1="44%" y1="0" x2="20%" y2="100%" />
+    <line x1="56%" y1="0" x2="80%" y2="100%" />
+
+    <line x1="40%" y1="0" x2="0%" y2="100%" />
+    <line x1="60%" y1="0" x2="100%" y2="100%" />
+
+    <line x1="36%" y1="0" x2="0%" y2="60%" />
+    <line x1="64%" y1="0" x2="100%" y2="60%" />
+
+    <line x1="32%" y1="0" x2="0%" y2="30%" />
+    <line x1="68%" y1="0" x2="100%" y2="30%" />
+
+    <line x1="28%" y1="0" x2="0%" y2="10%" />
+    <line x1="72%" y1="0" x2="100%" y2="10%" />
+
+    <line x1="24%" y1="0" x2="0%" y2="5%" />
+    <line x1="76%" y1="0" x2="100%" y2="5%" />
+
+    <line x1="20%" y1="0" x2="0%" y2="2.5%" />
+    <line x1="80%" y1="0" x2="100%" y2="2.5%" />
+
+    <!-- HORIZON -->
+    <line class="horizon" x1="0" y1="0" x2="100%" y2="0" />
+
+    <!-- MOVING LINES -->
+    <line class="moving-line" x1="0" y1="0" x2="100%" y2="0" />      
+    <line class="moving-line two" x1="0" y1="0" x2="100%" y2="0" />
+    <line class="moving-line three" x1="0" y1="0" x2="100%" y2="0" />
+    <line class="moving-line four" x1="0" y1="0" x2="100%" y2="0" />
+    <line class="moving-line five" x1="0" y1="0" x2="100%" y2="0" />
+    <line class="moving-line six" x1="0" y1="0" x2="100%" y2="0" />
+    <line class="moving-line seven" x1="0" y1="0" x2="100%" y2="0" />
+    <line class="moving-line eight" x1="0" y1="0" x2="100%" y2="0" />
+    <line class="moving-line nine" x1="0" y1="0" x2="100%" y2="0" />
+    <line class="moving-line ten" x1="0" y1="0" x2="100%" y2="0" />        
+
+  </svg>
+
+
+
+  <!-- -------------------------------- -->
+  <!-- Main Content                     -->
+  <!-- -------------------------------- -->
   <main class="clearfix">
-
-    <section class="hero-image-and-title">
-
-      <div class="doc-img">
-        <img src="/assets/img/android-chrome-512x512.png" alt="Doctor Viper" />
-      </div>
-      
-      <div class="doc-terminal">
-
-        <div class="fake-toolbar">
-          <div class="fake-button y-btn"></div>
-          <div class="fake-button fake-yellow"></div>
-          <div class="fake-button fake-green n-btn"></div>
-          <div class="exit-instructions">ESC TO EXIT</div>
-        </div>
-
-
-        <p class="line line1">> npm install vipos_mk4<span class="cursor1">_</span></p>
-        <p class="line line2">npm installing packages...<span class="cursor2">_</span></p>
-        <p class="line line3">- <span class="text"></span> installed.<span class="cursor3">_</span></p>
-        <p class="line line4">- <span class="text"></span> installed.<span class="cursor4">_</span></p>
-        <p class="line line5">- <span class="text"></span> installed.<span class="cursor5">_</span></p>
-        <p class="line line6">- <span class="text"></span> installed.<span class="cursor6">_</span></p>
-        <p class="line line7">- <span class="text"></span> installed.<span class="cursor7">_</span></p>
-        <p class="line8">> ENTER VIPERVERSE? (<span class="y-btn">y</span>/<span class="n-btn">n</span>)<span class="cursor6">_</span></p>
         
-        <svg>
-      
-          <!-- VERTICAL LINES -->
-          <line x1="48%" y1="0" x2="40%" y2="100%" />
-          <line x1="52%" y1="0" x2="60%" y2="100%" />
+    <h2>welcome to the</h2>
+    <span class="viperverse-ascii">
+    <p>&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;__________&nbsp;&nbsp;__________&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;_____&nbsp;______</p>
+    <p>|&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;&nbsp;_/&nbsp;__&nbsp;\/&nbsp;____/&nbsp;__&nbsp;\&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;____/&nbsp;__&nbsp;\/&nbsp;___//&nbsp;____/</p>
+    <p>|&nbsp;|&nbsp;/&nbsp;//&nbsp;//&nbsp;/_/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/&nbsp;|&nbsp;/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/\__&nbsp;\/&nbsp;__/</p>
+    <p>|&nbsp;|/&nbsp;//&nbsp;//&nbsp;____/&nbsp;/___/&nbsp;_,&nbsp;_/|&nbsp;|/&nbsp;/&nbsp;/___/&nbsp;_,&nbsp;_/___/&nbsp;/&nbsp;/___</p>
+    <p>|___/___/_/&nbsp;&nbsp;&nbsp;/_____/_/&nbsp;|_|&nbsp;|___/_____/_/&nbsp;|_|/____/_____/</p>
+    </span>
 
-          <line x1="44%" y1="0" x2="20%" y2="100%" />
-          <line x1="56%" y1="0" x2="80%" y2="100%" />
+    <p class="description">just another goofy streamer dude<br />contact: <a href="mailto:doc@viperverse.tv">doc@viperverse.tv</a></p>
 
-          <line x1="40%" y1="0" x2="0%" y2="100%" />
-          <line x1="60%" y1="0" x2="100%" y2="100%" />
-
-          <line x1="36%" y1="0" x2="0%" y2="60%" />
-          <line x1="64%" y1="0" x2="100%" y2="60%" />
-
-          <line x1="32%" y1="0" x2="0%" y2="30%" />
-          <line x1="68%" y1="0" x2="100%" y2="30%" />
-
-          <line x1="28%" y1="0" x2="0%" y2="10%" />
-          <line x1="72%" y1="0" x2="100%" y2="10%" />
-
-          <line x1="24%" y1="0" x2="0%" y2="5%" />
-          <line x1="76%" y1="0" x2="100%" y2="5%" />
-
-          <line x1="20%" y1="0" x2="0%" y2="2.5%" />
-          <line x1="80%" y1="0" x2="100%" y2="2.5%" />
-
-          <!-- HORIZON -->
-          <line class="horizon" x1="0" y1="0" x2="100%" y2="0" />
-
-          <!-- MOVING LINES -->
-          <line class="moving-line" x1="0" y1="0" x2="100%" y2="0" />      
-          <line class="moving-line two" x1="0" y1="0" x2="100%" y2="0" />
-          <line class="moving-line three" x1="0" y1="0" x2="100%" y2="0" />
-          <line class="moving-line four" x1="0" y1="0" x2="100%" y2="0" />
-          <line class="moving-line five" x1="0" y1="0" x2="100%" y2="0" />
-
-        </svg>
-
-      </div>
-      
-      <!-- <div class="doc-title">
-        <h1>Hi Friends!</h1>
-        <h2>
-        <em>Welcome to the <strong class="viperverse">VIPERVERSE</strong></em><br />
-          <em>Home of <strong class="doctor-viper">Doctor Viper</strong></em><br />
-          Streamer, Father, Engineer,<br />
-          80s Enthusiast, & Lego Builder.          
-        </h2>
-      </div> -->
-
-    </section>
+    <ul class="socials">
+      <li><a target="_blank" href="https://discord.viperverse.tv" title="Discord"><img src="../assets/img/discord.svg" alt="Discord"></a></li>
+      <li><a target="_blank" href="https://www.twitch.tv/dr_viper" title="Twitch"><img src="../assets/img/twitch.svg" alt="Twitch"></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/doctor.viper/" title="Instagram"><img src="../assets/img/instagram.svg" alt="Instagram"></a></li>
+      <li><a target="_blank" href="https://soundcloud.com/doctor_viper/sets/stream-vibes-v2" title="Soundcloud"><img src="../assets/img/soundcloud.svg" alt="Soundc6loud"></a></li>
+    <ul>
 
   </main>
 

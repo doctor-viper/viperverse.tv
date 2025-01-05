@@ -1,87 +1,31 @@
 /**
- * Document.ready function
- * 
+ * ALL SYSTEMS NOMINAL.
  */
-$( document ).ready(function() {
-
-  // get random packages off the bat
-  get_random_packages();
-
-  // event listener for y button
-  $(document).keydown(function(keyPressed) {
-    if (keyPressed.keyCode == 89) {
-      showGame();
-    }
-  });
-  
-  // event listener for esc key
-  $(document).keydown(function(keyPressed) {
-    if (keyPressed.keyCode == 27) {
-      get_random_packages();
-      showTerminal();
-    }
-  });
-  
-  // "y" btn click event listener
-  $(".y-btn").on("click", function(){
-    showGame();
-  });
-
-});
+viperverse_console();
 
 
 /**
- * Gets random NPM package descriptions
- * for the vipos install script
- * 
+ * Default console gibberish, spit out in monospace
+ * doesn't do anything, just silly fun
  */
-function get_random_packages() {
-  $.ajax({
-    url:      '/api/v1/packages/index.php',
-    type:     'POST',
-    dataType: 'json',
-    success:  function(data) {
-      $(".line3 .text").text(data[0]);
-      $(".line4 .text").text(data[1]);
-      $(".line5 .text").text(data[2]);
-      $(".line6 .text").text(data[3]);
-      $(".line7 .text").text(data[4]);
-    },
-    error: function (xhr, ajaxOptions, thrownError) {
-      console.log(xhr.status);
-      console.log(thrownError);
-      console.log(xhr.responseText);
-    }
-  });
-}
+function viperverse_console() {
 
+console.log(`%c
+LOGGING INTO THE . . . 
+ _    __________  __________ _    ____________  _____ ______
+| |  / /  _/ __ \\/ ____/ __ \\ |  / / ____/ __ \\/ ___// ____/
+| | / // // /_/ / __/ / /_/ / | / / __/ / /_/ /\\__ \\/ __/   
+| |/ // // ____/ /___/ _, _/| |/ / /___/ _, _/___/ / /___   
+|___/___/_/   /_____/_/ |_| |___/_____/_/ |_|/____/_____/ 
 
-/**
- * Shows the 'game' version of the
- * terminal window
- * 
- */
-function showGame() {
-  $(".line,.line8,.doc-img").fadeOut( "fast", function() {
-    $(".doc-terminal").addClass("full-width");
-    $("svg,.exit-instructions").fadeIn();
-    $(".fake-toolbar,.fake-button").addClass("viperverse");    
-  });
-}
+* REACTOR . . . ONLINE
+* SENSORS . . . ONLINE
+* SYSTEMS . . . ONLINE
 
+KNOWLEDGE IS POWER - FOR REAL.
 
-/**
- * Shows the npm install script version
- * of the terminal window
- * 
- */
-function showTerminal() {
-  $("svg,.exit-instructions").fadeOut("slow", function(){
-    $(".doc-terminal").removeClass("full-width");
-    setTimeout(function(){
-      //wait for card1 flip to finish and then flip 2
-      $(".line,.line8,.doc-img").fadeIn();
-      $(".fake-toolbar,.fake-button").removeClass("viperverse");
-    }, 100);    
-  });
+viper:\\>`,
+`font-family:monospace`
+);
+
 }
