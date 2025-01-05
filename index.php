@@ -62,13 +62,13 @@
   <main class="clearfix">
 
     <h2>welcome to the</h2>
-    <span class="viperverse-ascii" title="Viperverse">
-    <p>&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;__________&nbsp;&nbsp;__________&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;_____&nbsp;______</p>
-    <p>|&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;&nbsp;_/&nbsp;__&nbsp;\/&nbsp;____/&nbsp;__&nbsp;\&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;____/&nbsp;__&nbsp;\/&nbsp;___//&nbsp;____/</p>
-    <p>|&nbsp;|&nbsp;/&nbsp;//&nbsp;//&nbsp;/_/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/&nbsp;|&nbsp;/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/\__&nbsp;\/&nbsp;__/</p>
-    <p>|&nbsp;|/&nbsp;//&nbsp;//&nbsp;____/&nbsp;/___/&nbsp;_,&nbsp;_/|&nbsp;|/&nbsp;/&nbsp;/___/&nbsp;_,&nbsp;_/___/&nbsp;/&nbsp;/___</p>
-    <p>|___/___/_/&nbsp;&nbsp;&nbsp;/_____/_/&nbsp;|_|&nbsp;|___/_____/_/&nbsp;|_|/____/_____/</p>
-    </span>
+    <section class="viperverse-ascii" title="Viperverse">
+      <p>&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;__________&nbsp;&nbsp;__________&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;_____&nbsp;______</p>
+      <p>|&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;&nbsp;_/&nbsp;__&nbsp;\/&nbsp;____/&nbsp;__&nbsp;\&nbsp;|&nbsp;&nbsp;/&nbsp;/&nbsp;____/&nbsp;__&nbsp;\/&nbsp;___//&nbsp;____/</p>
+      <p>|&nbsp;|&nbsp;/&nbsp;//&nbsp;//&nbsp;/_/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/&nbsp;|&nbsp;/&nbsp;/&nbsp;__/&nbsp;/&nbsp;/_/&nbsp;/\__&nbsp;\/&nbsp;__/</p>
+      <p>|&nbsp;|/&nbsp;//&nbsp;//&nbsp;____/&nbsp;/___/&nbsp;_,&nbsp;_/|&nbsp;|/&nbsp;/&nbsp;/___/&nbsp;_,&nbsp;_/___/&nbsp;/&nbsp;/___</p>
+      <p>|___/___/_/&nbsp;&nbsp;&nbsp;/_____/_/&nbsp;|_|&nbsp;|___/_____/_/&nbsp;|_|/____/_____/</p>
+    </section>
 
     <p class="description">just another goofy streamer dude</p>
     <p class="description">contact: <a href="mailto:doc@viperverse.tv">doc@viperverse.tv</a></p>
