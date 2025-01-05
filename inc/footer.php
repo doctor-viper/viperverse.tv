@@ -9,5 +9,16 @@
     <span class="text">all rights reserved</span>
   </footer>
 
+  <!-- -------------------------------- -->
+  <!-- You're still here?               -->
+  <!--                                  -->
+  <!-- INTO THESE WORLDS                -->
+  <!-- OF UKNOWNN                       -->
+  <!-- DANGER THEY RIDE                 -->
+  <!--                                  -->
+  <!-- use viper_rangers()              -->
+  <!-- for the rest ;)                  -->
+  <!-- -------------------------------- -->
+
 </body>
 </html>

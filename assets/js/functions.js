@@ -29,3 +29,33 @@ viper:\\>`,
 );
 
 }
+
+/**
+ * ONE FOR ALL, ALL FOR ONE
+ * RIDERS ON THE RANGE
+ */
+function viper_rangers() {
+
+console.log(`%c
+SOMEWHERE IN THE FUTURE
+FAR AWAY FROM HERE
+TROUBLE IS WAITING
+ON THE LAST FRONTIER
+
+INTO THESE WORLDS OF UNKNOWN DANGER
+THEY RIDE
+THEY'RE THE GALAXY RANGERS
+HEROES IN THE SKY
+
+NO GUTS, NO GLORY
+NO PAIN, NO GAIN
+ONE FOR ALL, ALL FOR ONE
+RIDERS ON THE RANGE
+
+https://www.youtube.com/watch?v=3Sso3h0xMJA
+
+viper:\\>`,
+`font-family:monospace`
+);
+
+}
