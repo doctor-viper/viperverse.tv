@@ -28,31 +28,30 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>VIPERVERSE</title>
+  <title>VIPERVERSE.tv</title>
   <meta name="description" content="viperverse.tv" />
   <meta name="author" content="Doc Viper" />
   <meta name="copyright" content="<?php echo date('Y')?> - Doc Viper" />
 
   <!-- Primary Meta Tags -->
-  <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
-  <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+  <meta name="title" content="viperverse.tv" />
+  <meta name="description" content="Viperverse Studios, a community of gamers, streamers friends, and all-around good people - come join us sometime!" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://metatags.io/" />
-  <meta property="og:title" content="Meta Tags — Preview, Edit and Generate" />
-  <meta property="og:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
-  <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+  <meta property="og:url" content="https://www.viperverse.tv/" />
+  <meta property="og:title" content="viperverse.tv" />
+  <meta property="og:description" content="Viperverse Studios, a community of gamers, streamers friends, and all-around good people - come join us sometime!" />
+  <meta property="og:image" content="https://viperverse.tv/assets/img/viperverse_meta.png.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://metatags.io/" />
-  <meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate" />
-  <meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
-  <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+  <meta property="twitter:url" content="https://www.viperverse.tv/" />
+  <meta property="twitter:title" content="viperverse.tv" />
+  <meta property="twitter:description" content="Viperverse Studios, a community of gamers, streamers friends, and all-around good people - come join us sometime!" />
+  <meta property="twitter:image" content="https://viperverse.tv/assets/img/viperverse_meta.png.png" />
 
   <!-- CSS -->
-  <!-- <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' type='text/css'> -->
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 
   <!-- Favicon -->
