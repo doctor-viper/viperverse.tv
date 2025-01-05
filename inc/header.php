@@ -42,14 +42,14 @@
   <meta property="og:url" content="https://www.viperverse.tv/" />
   <meta property="og:title" content="viperverse.tv" />
   <meta property="og:description" content="Viperverse Studios, a community of gamers, streamers friends, and all-around good people - come join us sometime!" />
-  <meta property="og:image" content="https://viperverse.tv/assets/img/viperverse_meta.png.png" />
+  <meta property="og:image" content="https://viperverse.tv/assets/img/viperverse_meta.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://www.viperverse.tv/" />
   <meta property="twitter:title" content="viperverse.tv" />
   <meta property="twitter:description" content="Viperverse Studios, a community of gamers, streamers friends, and all-around good people - come join us sometime!" />
-  <meta property="twitter:image" content="https://viperverse.tv/assets/img/viperverse_meta.png.png" />
+  <meta property="twitter:image" content="https://viperverse.tv/assets/img/viperverse_meta.png" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
