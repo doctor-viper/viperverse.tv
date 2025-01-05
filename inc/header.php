@@ -29,7 +29,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>VIPERVERSE</title>
-  <meta name="description" content="VIPERVERSE.tv" />
+  <meta name="description" content="viperverse.tv" />
   <meta name="author" content="Doc Viper" />
   <meta name="copyright" content="<?php echo date('Y')?> - Doc Viper" />
 
