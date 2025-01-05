@@ -1,17 +1,17 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
 
-  <!-- -------------------------------- -->
-  <!-- 80s Sun Background thinger       -->
-  <!-- -------------------------------- -->
+  <!-- - - - - - - - - - - - - - - - - - -->
+  <!-- 80s Sun Background thinger        -->
+  <!-- - - - - - - - - - - - - - - - - - -->
   <div class="sun-box">
     <div class="sun-bg"></div>
     <div class="sun"></div>
     <div class="sunglow"></div>
   </div>
 
-  <!-- -------------------------------- -->
-  <!-- 80s Grid Lines                   -->
-  <!-- -------------------------------- -->
+  <!-- - - - - - - - - - - - - - - - - - -->
+  <!-- 80s Grid Lines                    -->
+  <!-- - - - - - - - - - - - - - - - - - -->
   <svg class="moving-grid">
 
     <!-- VERTICAL LINES -->
@@ -56,9 +56,9 @@
 
   </svg>
 
-  <!-- -------------------------------- -->
-  <!-- Main Content                     -->
-  <!-- -------------------------------- -->
+  <!-- - - - - - - - - - - - - - - - - - -->
+  <!-- Main Content                      -->
+  <!-- - - - - - - - - - - - - - - - - - -->
   <main class="clearfix">
 
     <h2>welcome to the</h2>
