@@ -77,7 +77,7 @@
       <li><a target="_blank" href="https://www.twitch.tv/dr_viper" title="Twitch"><img src="../assets/img/twitch.svg" alt="Twitch"></a></li>
       <li><a target="_blank" href="https://www.instagram.com/doctor.viper/" title="Instagram"><img src="../assets/img/instagram.svg" alt="Instagram"></a></li>
       <li><a target="_blank" href="https://soundcloud.com/doctor_viper/sets/stream-vibes-v2" title="Soundcloud"><img src="../assets/img/soundcloud.svg" alt="Soundc6loud"></a></li>
-    <ul>
+    </ul>
 
   </main>
 
