@@ -9,11 +9,9 @@
     <div class="sunglow"></div>
   </div>
 
-
-
   <!-- -------------------------------- -->
   <!-- 80s Grid Lines                   -->
-  <!-- -------------------------------- -->    
+  <!-- -------------------------------- -->
   <svg class="moving-grid">
 
     <!-- VERTICAL LINES -->
@@ -45,7 +43,7 @@
     <line class="horizon" x1="0" y1="0" x2="100%" y2="0" />
 
     <!-- MOVING LINES -->
-    <line class="moving-line" x1="0" y1="0" x2="100%" y2="0" />      
+    <line class="moving-line" x1="0" y1="0" x2="100%" y2="0" />
     <line class="moving-line two" x1="0" y1="0" x2="100%" y2="0" />
     <line class="moving-line three" x1="0" y1="0" x2="100%" y2="0" />
     <line class="moving-line four" x1="0" y1="0" x2="100%" y2="0" />
@@ -54,17 +52,15 @@
     <line class="moving-line seven" x1="0" y1="0" x2="100%" y2="0" />
     <line class="moving-line eight" x1="0" y1="0" x2="100%" y2="0" />
     <line class="moving-line nine" x1="0" y1="0" x2="100%" y2="0" />
-    <line class="moving-line ten" x1="0" y1="0" x2="100%" y2="0" />        
+    <line class="moving-line ten" x1="0" y1="0" x2="100%" y2="0" />
 
   </svg>
-
-
 
   <!-- -------------------------------- -->
   <!-- Main Content                     -->
   <!-- -------------------------------- -->
   <main class="clearfix">
-        
+
     <h2>welcome to the</h2>
     <span class="viperverse-ascii" title="Viperverse">
     <p>&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;__________&nbsp;&nbsp;__________&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;____________&nbsp;&nbsp;_____&nbsp;______</p>
