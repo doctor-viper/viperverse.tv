@@ -15,7 +15,7 @@
   - favicon generator: https://favicon.io
   - social meta tag generators: https://metatags.io — https://megatags.co
   - social media icon svgs: https://simpleicons.org/
-  - css written in sass: https://sass-lang.com/
+  - css written and compiled with SASS: https://sass-lang.com/
 
   ENJOY YOUR REWARD:
   - Rangers are Forever: https://www.youtube.com/watch?v=IvWtI4NZjTI
@@ -28,27 +28,27 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>VIPERVERSE.tv</title>
-  <meta name="description" content="viperverse.tv" />
+  <title>Viperverse Studios</title>
+  <meta name="description" content="Viperverse Studios" />
   <meta name="author" content="Doc Viper" />
   <meta name="copyright" content="<?php echo date('Y')?> - Doc Viper" />
 
   <!-- Primary Meta Tags -->
-  <meta name="title" content="viperverse.tv" />
-  <meta name="description" content="Viperverse Studios, a community of gamers, streamers friends, and all-around good people - come join us sometime!" />
+  <meta name="title" content="Viperverse Studios" />
+  <meta name="description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.viperverse.tv/" />
-  <meta property="og:title" content="viperverse.tv" />
-  <meta property="og:description" content="Viperverse Studios, a community of gamers, streamers friends, and all-around good people - come join us sometime!" />
+  <meta property="og:title" content="Viperverse Studios" />
+  <meta property="og:description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!" />
   <meta property="og:image" content="https://viperverse.tv/assets/img/viperverse_meta.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://www.viperverse.tv/" />
-  <meta property="twitter:title" content="viperverse.tv" />
-  <meta property="twitter:description" content="Viperverse Studios, a community of gamers, streamers friends, and all-around good people - come join us sometime!" />
+  <meta property="twitter:title" content="Viperverse Studios" />
+  <meta property="twitter:description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!" />
   <meta property="twitter:image" content="https://viperverse.tv/assets/img/viperverse_meta.png" />
 
   <!-- CSS -->
