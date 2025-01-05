@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<!--	
-    WELCOME TO THE
-     _    __________  __________ _    ____________  _____ ______
-    | |  / /  _/ __ \/ ____/ __ \ |  / / ____/ __ \/ ___// ____/
-    | | / // // /_/ / __/ / /_/ / | / / __/ / /_/ /\__ \/ __/   
-    | |/ // // ____/ /___/ _, _/| |/ / /___/ _, _/___/ / /___   
-    |___/___/_/   /_____/_/ |_| |___/_____/_/ |_|/____/_____/ 
-    
+<!--
+
+  WELCOME TO THE
+   _    __________  __________ _    ____________  _____ ______
+  | |  / /  _/ __ \/ ____/ __ \ |  / / ____/ __ \/ ___// ____/
+  | | / // // /_/ / __/ / /_/ / | / / __/ / /_/ /\__ \/ __/
+  | |/ // // ____/ /___/ _, _/| |/ / /___/ _, _/___/ / /___
+  |___/___/_/   /_____/_/ |_| |___/_____/_/ |_|/____/_____/
+
   TEMPLATE PROVIDED BY:
   - https://github.com/murtaugh/HTML5-Reset
-  
+
   3RD PARTY TOOLS:
   - repo management: https://github.com/new
   - favicon generator: https://favicon.io
@@ -21,7 +22,7 @@
   - Rangers are Forever: https://www.youtube.com/watch?v=IvWtI4NZjTI
 
 -->
-<html lang="en">	
+<html lang="en">
 <head>
 
   <meta charset="utf-8">
@@ -29,11 +30,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Viperverse Studios</title>
-  <meta name="description" content="Viperverse Studios" />
   <meta name="author" content="Doc Viper" />
-  <meta name="copyright" content="<?php echo date('Y')?> - Doc Viper" />
+  <meta name="copyright" content="<?php echo date('Y')?> - viperverse.tv" />
 
-  <!-- Primary Meta Tags -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script src="/assets/js/functions.js" type="text/javascript"></script>
+
+  <!-- Meta Tags -->
   <meta name="title" content="Viperverse Studios" />
   <meta name="description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!" />
 
@@ -51,28 +60,17 @@
   <meta property="twitter:description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!" />
   <meta property="twitter:image" content="https://viperverse.tv/assets/img/viperverse_meta.png" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-
-  <script src="/assets/js/functions.js" type="text/javascript"></script>
-
 </head>
 
 <body>
 
   <header>
     <div>
-    
+
       <h1>
         <a href="/">VIPERVERSE</a>
       </h1>
-      
+
       <img class="sun" src="/assets/img/android-chrome-192x192.png" alt="SUN" />
 
       <nav>
