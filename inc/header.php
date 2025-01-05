@@ -26,12 +26,12 @@
 <head>
 
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Viperverse Studios</title>
-  <meta name="author" content="Doc Viper" />
-  <meta name="copyright" content="<?php echo date('Y')?> - viperverse.tv" />
+  <meta name="author" content="Doc Viper">
+  <meta name="copyright" content="<?php echo date('Y')?> - viperverse.tv">
 
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 
@@ -43,22 +43,22 @@
   <script src="/assets/js/functions.js" type="text/javascript"></script>
 
   <!-- Meta Tags -->
-  <meta name="title" content="Viperverse Studios" />
-  <meta name="description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!" />
+  <meta name="title" content="Viperverse Studios">
+  <meta name="description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!">
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.viperverse.tv/" />
-  <meta property="og:title" content="Viperverse Studios" />
-  <meta property="og:description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!" />
-  <meta property="og:image" content="https://viperverse.tv/assets/img/viperverse_meta.png" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.viperverse.tv/">
+  <meta property="og:title" content="Viperverse Studios">
+  <meta property="og:description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!">
+  <meta property="og:image" content="https://viperverse.tv/assets/img/viperverse_meta.png">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.viperverse.tv/" />
-  <meta property="twitter:title" content="Viperverse Studios" />
-  <meta property="twitter:description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!" />
-  <meta property="twitter:image" content="https://viperverse.tv/assets/img/viperverse_meta.png" />
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.viperverse.tv/">
+  <meta property="twitter:title" content="Viperverse Studios">
+  <meta property="twitter:description" content="A community of gamers, streamers friends, and all-around good people - come join us sometime!">
+  <meta property="twitter:image" content="https://viperverse.tv/assets/img/viperverse_meta.png">
 
 </head>
 
