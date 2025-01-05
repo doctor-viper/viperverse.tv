@@ -6,7 +6,7 @@ A community of gamers, streamers friends, and all-around good people.<br /><br /
 ## // RESOURCES
 ### TEMPLATE PROVIDED BY:
 - https://github.com/murtaugh/HTML5-Reset
-  
+
 ### 3RD PARTY TOOLS:
 - repo management: https://github.com/new
 - favicon generator: https://favicon.io
